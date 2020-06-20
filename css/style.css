@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Effra';
+    src: local('Effra Light'), local('Effra-Light'),
+        url('Effra-Light.woff2') format('woff2'),
+        url('Effra-Light.woff') format('woff'),
+        url('Effra-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  
+  * {
+    outline: none;
+  }
+
+  body{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(39, 51, 56);
+    font-size: 15px;
+    margin: 0;
+    padding:0;
+    outline: none;
+}
+nav span {
+  letter-spacing: 0.5em;
+  font-size: 25px;
+  font-family: 'Effra';
+}
+
+nav img {
+  margin-left: 10em;
+}
+
+.nav-item  a{
+  color: rgb(133, 145, 158);
+  letter-spacing: 0.1em;
+}
+
+.nav-item  a:hover{
+  color: rgb(75, 77, 78);
+  letter-spacing: 0.1em;
+}
+
+.container {
+  width: 60%;
+  margin-top: 5%;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Effra';
+}
+.container h2 {
+  text-align: center;
+}
+
+.container p {
+  text-align: center;
+}
+
+
+.form-group {
+  width: 400px;
+  margin-left: 25%;
+}
+
+#auth_user, #reg_user, #cut {
+  text-align: center;
+  width: 400px;
+  position: relative;
+}
+#auth_user, #reg_user, #cut:hover {
+
+}
+
+#exit {
+  text-align: center;
+  font-weight: bold;
+  width: 200px;
+  position: relative;
+  left: 37%;
+}
+
+.card {
+  position: relative;
+}
+.card p{
+  font-size: 17px;
+}
+.jumbotron {
+  width: 400px!important;
+  /*align: center;*/
+}
+.jumbotron button {
+  position: relative!important;
+  left: 40%!important;
+}
+/*.link-box {*/
+/*  width: 400px;*/
+/*  background: cadetblue;*/
+/*  border-radius: 3px;*/
+/*  font-size: 12px;*/
+/*}*/
+/*.link-box button {*/
+/*  position: relative;*/
+/*  left: 15%;*/
+/*}*/
+footer {
+  width: 90%;
+  padding: 50px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(248, 249, 250);
+}
+
+footer .up-btn,
+footer .social div {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #eee;
+  border: 1px solid silver;
+  cursor: pointer;
+  color: #3b3b3b;
+  transition: transform 600ms ease;
+}
+
+footer .up-btn:hover,
+footer .social div:hover {
+  transform: translateY(-10px);
+}
+
+footer .social div {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+#errorBlock {
+  display: none;
+}
